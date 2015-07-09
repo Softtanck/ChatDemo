@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_roma_sky"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:onClick="onClickImg"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo" />
+
+        <com.iyangcong.widget.ScrollTextView
+            android:id="@+id/sampleView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="#FFF"
+            android:textSize="18sp" >
+        </com.iyangcong.widget.ScrollTextView>
+    </LinearLayout>
+
+</LinearLayout>
